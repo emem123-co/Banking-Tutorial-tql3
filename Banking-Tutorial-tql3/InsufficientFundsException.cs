@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,4 +17,5 @@ internal class InsufficientFundsException : Exception
     public InsufficientFundsException() : base() {} //default constructor
     public InsufficientFundsException(string message) : base(message) {} //constructor that takes a string
     public InsufficientFundsException(string message, Exception exception) : base(message, exception) {} //constructor that takes a string AND a base
-}
+
+

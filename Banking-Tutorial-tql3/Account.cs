@@ -29,7 +29,8 @@ public class Account {
             throw new NonPositiveAmountException();
         }
         if(Amount > Balance) {
-        throw new InsufficientFundsException {Amount = Amount, Balance = Balance};    
+            Console.WriteLine("Insufficient Funds!");
+            return false;
         }
         Balance -= Amount;
         return true;

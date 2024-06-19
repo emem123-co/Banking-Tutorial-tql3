@@ -11,3 +11,5 @@ internal class NonPositiveAmountException : Exception
     public NonPositiveAmountException(string message) : base(message) {}
     public NonPositiveAmountException(string message, Exception exception) : base(message, exception) {}
 }
+
+
