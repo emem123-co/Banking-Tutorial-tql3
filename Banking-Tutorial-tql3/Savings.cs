@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Banking_Tutorial_tql3;
 
-internal class Savings : Account {
+public class Savings : Account {
 
     public decimal IntRate { get; set; } = 0.12m;
 
